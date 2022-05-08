@@ -1,0 +1,40 @@
+{"intents":
+    [
+        {
+        "tag":"greeting",
+        "input":["hello","hi","Hi","hey","hey there","hey there!"],
+        "responses":["Hello!","Hi!", "Hey there!"]
+        },
+        {
+        "tag":"goodbye",
+        "input":["bye","goodbye","see you later!"],
+        "responses":["Bye!","Goodbye!"]
+        },
+        {
+        "tag":"thanks",
+        "input":["thank you","thanks"],
+        "responses":["You're welcome!","My pleasure!"]
+        },
+        {
+        "tag":"how are you",
+        "input":["how are you","how are you doing", "how is your day"],
+        "responses":["I'm fine, thanks!","I'm doing great!"]
+        },
+        {
+            "tag":"what is your name",
+            "input":["what is your name","who are you"],
+            "responses":["My name is Chatbot!","My name is Chatbot!"]
+        },
+        {
+            "tag":"career planning",
+            "input":["what is my main passion?","Im confused about my career","I want to be a"],
+            "responses":["Can you tell me more about it?","I'm a chatbot!"]
+        },
+        {
+            "tag":"financial planning",
+            "input":["I have million of dollar","how much money you have", "I spend a lot of money monthly"],
+            "responses":["You need to save more","I have million of rupiah"]
+        }
+
+    ]
+}
