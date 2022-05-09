@@ -1,0 +1,16 @@
+{"intents":
+    [
+    {
+        "tag":"greeting",
+        "input":["hi","hello","hey","hi there","hello there","hey there"],
+        "response":["Hello, how are you?", "Hi, i'm chatbot, how are you?",]
+    },
+    {
+        "tag":"asking name",
+        "question":["what is your name?","what should i call you?","would you like to tell me your name?"],
+        "input":["my name is $name","you can call me $name","$name"],
+        "response":["Nice to meet you $name","$name, nice to meet you", "Hi, $name !"]
+    },
+    ]
+
+}
