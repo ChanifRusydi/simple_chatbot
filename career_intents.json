@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag": "greeting", 
+     "input": ["Hi", "Hey", "Is anyone there?", "Hello",],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "input": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "age",
+    "question": ["Berapakah umur Anda?", "Berapakah usia Anda?"],
+    },
+    {"tag": "experience",
+    "question": ["Apa sajakah pengalaman profesional yang telah dimiliki?", "Could you tell me about your profesional experience?"],
+    },
+    {"tag": "skills",
+    "question": ["Skill atau kemampuan apa sajakah yang dimiliki oleh Anda?", "What kind of skills do you have?", "What are "],
+    },
+    {"tag": "salary",
+    "question": ["What are you looking for in terms of salary?", "What are your expectation of your salary?"],
+    },
+    {"tag": "position",
+    "question": ["What kind job do you want to apply?", "What job or career would you like in the future?", "What do you want to do in the future?", "What kind of role you want to apply?"],
+    },
+    {"tag": "education",
+    "question": ["What is the highest degree or level of education you have completed?", "What is the latest degree you earn?"],
+    },
+
+]
+}
