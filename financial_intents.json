@@ -3,7 +3,7 @@
     {
         "tag":"greeting",
         "input":["hi","hello","hey","hi there","hello there","hey there"],
-        "response":["Hello, how are you?", "Hi, i'm chatbot, how are you?",]
+        "response":["Hello, how are you?", "Hi, i'm chatbot, how are you?", "Hey, how are you?"]
     },
     {
         "tag":"asking name",
@@ -20,12 +20,12 @@
     {
         "tag":"asking income",
         "question":["how much do you make?","how much do you earn?","how much do you make per month?"],
-        "input":["i make $income","i earn $income","i make $income per month"],
+        "input":["i make $income","i earn $income","i make $income per month"]
     },
     {
         "tag":"asking monthly expenses",
         "question":["how much do you spend per month?","how much do you spend?","how much do you spend on food?"],
-        "input":["i spend $expenses","i spend $expenses on food","i spend $expenses on food per month"],
+        "input":["i spend $expenses","i spend $expenses on food","i spend $expenses on food per month"]
     
     },
     {
