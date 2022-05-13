@@ -12,10 +12,11 @@ api=Api(app)
 
 def linearregression():
     try:
-        model=pickle.load(open('my_model.pkl','rb'))
+        with open('my_model.pkl' , 'rb') as f:
+            linear_regression_model=pickle.load(f)
         data.request.get_json()['data']
         data=np.array(data).np.reshape(1,-1)
-        prediction = model.predict(data)
+        prediction = linear_regression_model.predict(data)
         return jsonify(prediction[0],status=200)
     except Exception as e:
         return jsonify(str(e),status=400)
@@ -28,6 +29,6 @@ class Chatbot(Resource):
 
 
 api.add_resource(Chatbot, '/chatbot')
-api.add_resource(linearregression, '/linearregression')
+
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000)
