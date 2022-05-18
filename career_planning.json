@@ -1,0 +1,38 @@
+{"intents":
+    [
+    {
+        "tag":"greeting",
+        "input":["hi","hello","hey","hi there","hello there","hey there"],
+        "response":["Hello, how are you?", "Hi, i'm chatbot, how are you?", "Hey, how are you?"]
+    },
+    {
+        "tag":"asking name",
+        "question":["what is your name?","what should i call you?","would you like to tell me your name?"],
+        "input":["my name is $name","you can call me $name","$name"],
+        "response":["Nice to meet you $name","$name, nice to meet you", "Hi, $name !"]
+    },
+    {
+        "tag":"asking age",
+        "question":["how old are you?","can you tell me your age?","would you mind telling me your age?"],
+        "input":["i am $age years old","i am $age","$age years old"],
+        "response":["I'm $age years old","$age years old, that's cool", "Okay, noted"]
+    },
+    {
+        "tag":"asking income",
+        "question":["how much do you make?","how much do you earn?","how much do you make per month?"],
+        "input":["i make $income","i earn $income","i make $income per month"]
+    },
+    {
+        "tag":"asking monthly expenses",
+        "question":["how much do you spend per month?","how much do you spend?","how much do you spend on food?"],
+        "input":["i spend $expenses","i spend $expenses on food","i spend $expenses on food per month"]
+    
+    },
+    {
+        "tag":"asking investment",
+        "question":["how much do you invest?","how much do you invest per month?","how much do you invest per year?"]   
+    },
+    
+    ]
+
+}

@@ -31,7 +31,8 @@
     {
         "tag":"asking investment",
         "question":["how much do you invest?","how much do you invest per month?","how much do you invest per year?"]   
-    }
+    },
+    
     ]
 
 }
