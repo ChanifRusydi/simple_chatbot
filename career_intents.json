@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting", 
-     "input": ["Hi", "Hey", "Is anyone there?", "Hello",],
+     "input": ["Hi", "Hey", "Is anyone there?", "Hello"],
      "responses": ["Hello", "Hi", "Hi there"]
     },
     {"tag": "goodbye",
@@ -8,23 +8,41 @@
      "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
     },
     {"tag": "age",
-    "question": ["Berapakah umur Anda?", "Berapakah usia Anda?"],
+    "question": ["Berapakah umur Anda?", "Berapakah usia Anda?"]
     },
     {"tag": "experience",
-    "question": ["Apa sajakah pengalaman profesional yang telah dimiliki?", "Could you tell me about your profesional experience?"],
+    "question": ["Apa sajakah pengalaman profesional yang telah dimiliki?", "Could you tell me about your profesional experience?"]
     },
     {"tag": "skills",
-    "question": ["Skill atau kemampuan apa sajakah yang dimiliki oleh Anda?", "What kind of skills do you have?", "What are "],
+    "question": ["Skill atau kemampuan apa sajakah yang dimiliki oleh Anda?", "What kind of skills do you have?", "What are "]
     },
     {"tag": "salary",
-    "question": ["What are you looking for in terms of salary?", "What are your expectation of your salary?"],
+    "question": ["What are you looking for in terms of salary?", "What are your expectation of your salary?", "What is your expected salary?"]
+    },
+    {"tag": "location",
+    "question": ["Where are you looking for a job?", "Where are you looking for a job?"]
+    },
+    {"tag": "job",
+    "question": ["What kind of job are you looking for?", "What kind of job are you looking for?"]
     },
     {"tag": "position",
-    "question": ["What kind job do you want to apply?", "What job or career would you like in the future?", "What do you want to do in the future?", "What kind of role you want to apply?"],
+    "question": ["What kind job do you want to apply?", "What job or career would you like in the future?", "What do you want to do in the future?", "What kind of role you want to apply?"]
     },
     {"tag": "education",
-    "question": ["What is the highest degree or level of education you have completed?", "What is the latest degree you earn?"],
+    "question": ["What is the highest degree or level of education you have completed?", "What is the latest degree you earn?"]
     },
+    {"tag": "major",
+    "question": ["What is your major?", "What is your major?"]
+    },
+    {"tag": "school",
+    "question": ["What is the name of your school?", "What is the name of your school?"]
+    },
+    {"tag": "degree",
+    "question": ["What is the highest degree or level of education you have completed?", "What is the latest degree you earn?"]
+    },
+    {"tag": "university",
+    "question": ["What is the name of your university?", "What is the name of your university?"]
+    }
 
 ]
 }
